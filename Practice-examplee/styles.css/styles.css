@@ -1,0 +1,23 @@
+/* css/style.css — custom overrides */
+
+:root {
+  --bs-primary: #7C3AED;        /* purple brand colour */
+  --bs-primary-rgb: 124,58,237;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #1a0533 0%, #7C3AED 100%);
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12) !important;
+}
